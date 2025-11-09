@@ -1,28 +1,9 @@
-import prompt
-
-from brain_games.cli import welcome_user
-from brain_games.games.calc import generate_number
+from brain_games.engine import play
+from brain_games.games import calc
 
 
 def main():
-    name = welcome_user()
-    print('What is the result of the expression?')
-    rounds_to_win = 3
-
-    for round in range(rounds_to_win):
-        question, correct_answer = generate_number()
-        print(f'Question: {question}')
-        user_answer = prompt.string('Your answer: ')
-
-        if user_answer != correct_answer:
-            print(f"'{user_answer}' is wrong answer ;(."
-                f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
-            return
-        
-        print('Correct!')
-    
-    print(f'Congratulations, {name}!')
+    play(calc)
 
 
 if __name__ == '__main__':
