@@ -1,8 +1,6 @@
 from random import choice, randint
 
 DESCRIPTION = 'What is the result of the expression?'
-START = 1
-END = 50
 
 
 def generate_operation():
@@ -11,8 +9,10 @@ def generate_operation():
 
 
 def generate_number():
-    number1 = randint(START, END)
-    number2 = randint(START, END)
+    start = 1
+    end = 50
+    number1 = randint(start, end)
+    number2 = randint(start, end)
     operation = generate_operation()
     question = (f'{number1} {operation} {number2}')
 
