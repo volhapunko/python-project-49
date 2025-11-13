@@ -1,6 +1,6 @@
 from random import choice, randint
 
-GAME_DESCRIPTION = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 START = 1
 END = 50
 

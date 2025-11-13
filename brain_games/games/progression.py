@@ -1,6 +1,6 @@
 from random import randint
 
-GAME_DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def generate_progression():

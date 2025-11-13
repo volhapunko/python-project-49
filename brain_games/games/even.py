@@ -1,6 +1,6 @@
 from random import randint
 
-GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 START = 1
 END = 50
 

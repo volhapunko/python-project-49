@@ -5,7 +5,7 @@ def play(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.GAME_DESCRIPTION)
+    print(game.DESCRIPTION)
     rounds_to_win = 3
 
     for round in range(rounds_to_win):
