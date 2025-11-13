@@ -10,7 +10,7 @@ def generate_operation():
 
 def generate_number():
     start = 1
-    end = 50
+    end = 10
     number1 = randint(start, end)
     number2 = randint(start, end)
     operation = generate_operation()
