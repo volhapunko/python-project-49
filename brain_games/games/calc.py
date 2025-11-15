@@ -10,7 +10,7 @@ def generate_operation():
 
 def generate_quest_and_answer():
     start = 1
-    end = 10
+    end = 50
     number1 = randint(start, end)
     number2 = randint(start, end)
     operation = generate_operation()
