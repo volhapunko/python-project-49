@@ -4,7 +4,7 @@
 
 ### BRAIN GAMES
 A set of five math games to train your brains.
-  You need to give correct answers in three rounds of questions to win each game.
+   You need to give correct answers in three rounds of questions to win each game.
 
 ### Brain games include:
 **brain-even** - determine whether a number is even or not  
@@ -15,15 +15,15 @@ A set of five math games to train your brains.
 
 ### Installation instructions:
 Clone the project from https://github.com/volhapunko/python-project-49.git
-  go to the python-project-49 directory and install it using uv tool install --force.
+   go to the python-project-49 directory and install it using uv tool install --force.
 
 ### How to play:
 After installation run a game directly by printing its name:  
-  brain-even  
-  brain-calc  
-  brain-gcd  
-  brain-progression  
-  brain-prime  
+brain-even  
+brain-calc  
+brain-gcd  
+brain-progression  
+brain-prime  
 
 ## You can find asciinema of each game below:
 
