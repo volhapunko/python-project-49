@@ -8,7 +8,7 @@ def generate_operation():
     return choice(operations)
 
 
-def generate_number():
+def generate_quest_and_answer():
     start = 1
     end = 10
     number1 = randint(start, end)

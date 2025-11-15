@@ -9,7 +9,7 @@ def play(game):
     rounds_to_win = 3
 
     for round in range(rounds_to_win):
-        question, correct_answer = game.generate_number()
+        question, correct_answer = game.generate_quest_and_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
 

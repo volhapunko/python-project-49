@@ -13,7 +13,7 @@ def is_prime(number):
     return True
 
 
-def generate_number():
+def generate_quest_and_answer():
     start = 1
     end = 50
     number = randint(start, end)

@@ -12,10 +12,10 @@ def generate_progression():
     for element in range(length):
         current_element = start + element * step
         progression.append(current_element)
-    return (progression)
+    return progression
 
 
-def generate_number():
+def generate_quest_and_answer():
     progression = generate_progression()
     skip_number = randint(0, len(progression) - 1)
     question = []

@@ -7,7 +7,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def generate_number():
+def generate_quest_and_answer():
     start = 1
     end = 50
     random_number = randint(start, end)
