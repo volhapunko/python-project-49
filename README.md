@@ -3,19 +3,19 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=volhapunko_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=volhapunko_python-project-49)
 
 ### BRAIN GAMES
-A set of five math games to train your brains.
-   You need to give correct answers in three rounds of questions to win each game.
+A set of five math games to train your brains.  
+You need to give correct answers in three rounds of questions to win each game.
 
 ### Brain games include:
 **brain-even** - determine whether a number is even or not  
-  **brain-calc** - solve a simple arithmetic expression  
-  **brain-gcd** - find greatest common divisor of two numbers  
-  **brain-progression** - complete arithmetic progressions  
-  **brain-prime** - determine whether a number is prime or not  
+**brain-calс** - solve a simple arithmetic expression  
+**brain-gcd** - find greatest common divisor of two numbers  
+**brain-progression** - complete arithmetic progressions  
+**brain-prime** - determine whether a number is prime or not  
 
 ### Installation instructions:
-Clone the project from https://github.com/volhapunko/python-project-49.git
-   go to the python-project-49 directory and install it using uv tool install --force.
+Clone the project from https://github.com/volhapunko/python-project-49.git  
+go to the python-project-49 directory and install it using uv tool install --force.
 
 ### How to play:
 After installation run a game directly by printing its name:  
